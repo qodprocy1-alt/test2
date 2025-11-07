@@ -1,0 +1,56 @@
+.aboutus {
+    max-width: 1260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.aboutus .text {
+    width: 46%;
+   
+    flex-direction: column;
+}
+
+.aboutus .serceficat {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+.aboutus .text .name {
+    font-family: "NotoSansArmenian", Sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 8%;
+}
+
+.aboutus .text p {
+    font-family: "NotoSansArmenian", Sans-serif;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 18px;
+}
+
+.serceficat img {
+    width: 100%;
+    border-radius: 15px;
+    border-color: #0DA5B3;
+}
+
+.aboutus .text .head {
+    width: 280px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+}
+
+.aboutus .text h2 {
+    margin-bottom: 25px;
+}
+
+.aboutus .text p {
+    margin-bottom: 20px;
+}

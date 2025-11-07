@@ -1,0 +1,17 @@
+@media (max-width:1024px) {
+    .aboutus {
+        flex-direction: column;
+        padding: 0 20px;
+
+    }
+
+    .serceficat {
+        width: 100% !important;
+    }
+
+    .aboutus .text {
+        width: 100%;
+        text-align: start !important;
+    }
+}
+

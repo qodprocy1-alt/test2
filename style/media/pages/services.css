@@ -1,0 +1,83 @@
+@media (max-width:1024px) {
+    .aboutus .text {
+        text-align: center;
+    }
+
+    .text h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+ 
+    .aboutus .text h1 {
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .aboutus .text p {
+        text-align: start;
+        font-size: 13px !important;
+    }
+
+    .aboutus .bth_helper {
+        text-align: start !important;
+    }
+}
+
+/* tabbbbbbbbbbbbbbbbbbbb */
+
+
+
+
+
+@media (max-width:1024px) {
+.tab_main{
+    padding: 0 20px;
+}
+
+
+
+
+    .tab_info h2 {
+        font-size: 25px;
+
+    }
+
+    .tab_img {
+        width: 28%;
+    }
+
+    .tab_info_btn {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .tab_info_btn h2 {
+        padding: 15px !important;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .tab_main {
+        flex-direction: column !important;
+    }
+
+    .main_tab {
+        width: 100%;
+    }
+
+    .tab_img{
+        width: 100% !important;
+        text-align: center;
+    }
+    .tabs{
+        flex-direction: column !important;
+    }
+}
+

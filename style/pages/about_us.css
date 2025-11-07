@@ -1,0 +1,100 @@
+@import url(../main.css);
+
+.rewards {
+    max-width: 1260px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rewards_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1260px;
+}
+
+.rewards .box {
+    width: 35%;
+    min-height: 140px;
+    display: flex;
+}
+
+.rewards .box .box_img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rewards .box .box_img img {
+    width: 150%;
+}
+
+.rewards .box .box_text {
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.rewards .box .box_text .body_text {
+    font-size: 13px;
+    color: black;
+}
+
+.info {
+    max-width: 1260px;
+    min-height: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .hero .text_and_btn2 {
+    max-width: 42%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second_hero {
+    max-width: 1260px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second_hero .img {
+    width: 50%;
+
+}
+
+.second_hero .img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.second_hero .text_hero {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.aboutus_slider{
+    border: solid;
+    max-width: 1260px;
+    min-height: 400px;
+    margin: 0 auto;
+ 
+}
+.pas .aboutus{
+    flex-direction: row-reverse;
+}

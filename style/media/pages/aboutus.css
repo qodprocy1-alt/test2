@@ -1,0 +1,44 @@
+@media (max-width:1024px) {
+    .hero_box {
+        flex-direction: column !important;
+    }
+
+    .img {
+        width: 100% !important;
+    }
+
+    .rewards_box {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+
+    .rewards .box .box_text {
+        width: 61% !important;
+    }
+}
+
+
+
+@media (max-width:1024px) {
+    .pas .aboutus{
+        flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+    .rewards_box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+@media (max-width:425px) {
+    .rewards_box .box{
+flex-direction: column;
+
+}
+
+.rewards_box{
+    
+}
+}
+
+

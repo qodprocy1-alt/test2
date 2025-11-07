@@ -1,0 +1,172 @@
+@import url(../main.css);
+
+
+.team {
+    max-width: 1260px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.team_box .box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+.img_box:hover {
+    background-image: url(/media/images/efect-Marik87.webp);
+    background-repeat: no-repeat;
+
+}
+
+.img_box2:hover {
+    background-image: url(/media/images/green-efect.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box3:hover {
+    background-image: url(/media/images/strat-efect.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box4:hover {
+    background-image: url(/media/images/Group-Kima87.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box5:hover {
+    background-image: url(/media/images/Group-Marine87.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box6:hover {
+    background-image: url(/media/images/Group-Kima87.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box7:hover {
+    background-image: url(/media/images/green-efect.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box8:hover {
+    background-image: url(/media/images/Group-Shushan87.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box9:hover {
+    background-image: url(/media/images/green-efect.webp);
+    background-repeat: no-repeat;
+}
+
+.img_box10:hover {
+    background-image: url(/media/images/strat-efect.webp);
+    background-repeat: no-repeat;
+
+}
+
+.team_box .text_box {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+
+.team_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.team_box .name {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.team_box .box2 .body_text {
+    color: rgb(0, 0, 0);
+}
+
+.team_box .img_box {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.team_box .img_box2 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+       width: 90%;
+}
+
+.team_box .img_box3 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+       width: 95%;
+}
+
+.team_box .img_box4 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+         width: 90%;
+}
+
+.team_box .img_box5 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+       width: 95%;
+}
+
+.team_box .img_box6 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+         width: 90%;
+}
+
+.team_box .img_box7 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+       width: 95%;
+}
+
+.team_box .img_box8 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+          width: 90%;
+}
+
+.team_box .img_box9 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+            width: 90%;
+}
+
+.team_box .img_box10 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+       width: 95%;
+}
+
+.team_box .img_box1 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+           width: 90%;
+}
+
+.team_slider {
+    border: solid;
+    margin: 0 auto;
+    max-width: 1260px;
+    height: 400px;
+}
+
+.team_box img{
+    width: 100%;
+}

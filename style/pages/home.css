@@ -1,0 +1,246 @@
+@import url(../main.css);
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1260px;
+  margin: 0 auto;
+
+}
+
+.hero2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.cta1 {
+  max-width: 1260px;
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'NotoSansArmenian';
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+
+.hero_banner {
+  position: absolute;
+  width: 50%;
+  min-height: 35px;
+  background-color: var(--yellow);
+  rotate: -2deg;
+  bottom: -22px;
+  font-weight: bold;
+  font-size: 65px;
+  font-family: 'NotoSansArmenian';
+  text-align: center;
+  color: var(--black);
+  justify-content: center;
+  padding: 0 25px;
+  font-weight: 500px;
+}
+
+
+.more_info {
+  max-width: 1260px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+.box_clasific {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s ease;
+  width: 18%;
+  min-height: 100%;
+
+
+}
+
+.Clasification {
+min-height: 440px ;
+  background-color: rgb(249, 249, 249);
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  background-color: rgb(237, 237, 237);
+  padding: 0 0 50px 0;
+}
+
+.Clasification .span1 img {
+  color: white;
+  width: fit-content;
+
+}
+
+.box_clasific .top_text {
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 4px;
+  vertical-align: middle;
+  text-transform: capitalize;
+
+}
+
+.Clasification1 {
+  border-top: 3px solid #ED619E;
+}
+
+.Clasification2 {
+  border-top: 3px solid #FFCC00
+}
+
+.Clasification3 {
+  border-top: 3px solid #89DE09
+}
+
+.Clasification4 {
+  border-top: 3px solid #0DA5B3
+}
+
+.Clasification5 {
+  border-top: 3px solid #BCE3F9;
+}
+
+.Clasification p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.Clasification .hover_btn_black {
+  width: 90%;
+  height: 45px;
+}
+
+.Clasification1:hover {
+  background-color: #ED619E2E;
+  ;
+}
+
+.box_clasific:hover {
+  position: relative;
+  transform: translateY(-20px);
+}
+
+.Clasification2:hover {
+  background-color: rgb(255, 204, 0, 0.18);
+}
+
+.Clasification3:hover {
+  background-color: rgba(137, 222, 9, 0.18);
+}
+
+.Clasification4:hover {
+  background-color: rgba(13, 184, 200, 0.18);
+}
+
+.Clasification5:hover {
+  background-color: rgba(188, 227, 249, 0.18);
+}
+
+button svg path {
+  fill: rgb(252, 252, 252);
+  width: 30px;
+  /* zzzzzzz */
+}
+
+
+.Clasification_text {
+  border: solid;
+
+}
+
+.our_services {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 90px;
+}
+.our_services .img_box{
+  width: 30%;
+}
+
+
+.our_services .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Elementary_school img {
+  border-radius: 20px;
+    width: 90%;
+}
+
+
+.Elementary_school {
+max-width: 1260px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  border-top: 3px solid gainsboro;
+  padding-top: 15px;
+
+}
+.our_services .text_box{
+  border: solid;
+  width: 100%;
+
+}
+
+
+.line {
+  border: solid;
+}
+
+
+.Elementary_school .spp {
+  color: var(--e-global-color-f27e3ec);
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.Elementary_school p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 6%;
+  text-transform: capitalize;
+  opacity: 80%;
+  margin-top: 12px;
+
+}
+
+.Elementary_school .text1 {
+width: 41%;
+}

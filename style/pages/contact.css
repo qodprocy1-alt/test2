@@ -1,0 +1,38 @@
+@import url(../main.css);
+
+.map{
+    max-width: 1260px;
+    margin: 0 auto;
+    height: 1000px;
+    display: flex;
+    gap: 15px;
+    
+}
+.map .map_box{
+    width: 900px;
+    min-height: 1000px;
+  
+}
+.map_map{
+    width: 100%;
+    min-height: 900px;
+}
+.map .map_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.map_info .box{
+    display: flex;
+    padding: 10px;
+}
+.map_info .maptext{
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 0 30px;
+}
+.map_info .maptext .body_text{
+    color: black;
+}

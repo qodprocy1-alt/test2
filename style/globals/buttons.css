@@ -1,0 +1,67 @@
+.hover_btn {
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  width: 200px;
+  height: 49px;
+font-size: 18px;
+  font-weight: bold;
+    font-family: "NotoSansArmenian500", sans-serif;
+}
+
+.hover_btn_orange .span1 {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.hover_btn_orange .span2 {
+  background-color: var(--orange);
+  color: white;
+}
+
+.hover_btn .span2 {
+  transform: translateY(0%);
+  z-index: 1;
+  transition: 0.3s ease;
+}
+
+.hover_btn:hover .span2 {
+transform: translateY(100%);
+}
+
+.hover_btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 35px;
+}
+
+.hover_btn .span1 {
+  top: 0;
+  left: -100%;
+  position: absolute;
+  transition: 0.3s ease;
+  z-index: 2;
+}
+
+.hover_btn:hover .span1 {
+  left: 0%;
+}
+
+.hover_btn_black .span1{
+    background-color: var(--black);
+    color: white;
+    padding: 10px;
+}
+.hover_btn_black .span2{
+    background-color: white;
+    color: var(--black);
+    padding: 10px;
+   
+}
+
+

@@ -1,0 +1,101 @@
+.head1 {
+  max-width: 100%;
+
+}
+
+.banner a {
+  color: var(--black);
+}
+
+.head1 .banner {
+  background-color: #FFD294;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+}
+.head1 .banner a{
+  font-weight: bold;
+}
+
+.head1 .box1 {
+  max-width: 1260px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.head1 .box1 a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.head1 .box1 .a1 {
+  display: block;
+  padding: 10px;
+}
+
+.logo img {
+  width: 190px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.nav a {
+  font-family: "NotoSansArmenian500", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10px 25px;
+  position: relative;
+  transition: 0.3s ease;
+  gap: 10px;
+}
+
+.nav a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--orange);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: var(--orange);
+}
+
+.nav a.active {
+  color: var(--orange);
+
+}
+
+.nav a.active::after {
+  width: 100%;
+}

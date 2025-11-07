@@ -1,0 +1,97 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url(globals/header.css);
+@import url(globals/buttons.css);
+@import url(globals/footer.css);
+@import url(globals/about_us_section.css);
+@import url(globals/slider.css);
+
+
+@import url(media/media.css);
+
+@font-face {
+  font-family: 'NotoSansArmenian500';
+  src: url('../media/fonts/NotoSansArmenian-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'NotoSansArmenian';
+  src: url('../media/fonts/NotoSansArmenian-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #bce3f9;
+  --blue: #0da5b3;
+  --dark-blue: #0db8c8;
+  --black: #2b2c20;
+  --orange: #F77701;
+  --yellow: #FFCC00;
+  --white-pink: #FDB0C3
+}
+
+.body_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155%;
+  letter-spacing: 0.08em;
+  color: rgb(53, 53, 53);
+}
+
+@media (min-width:1024px) {
+  
+}
+
+
+
+h1 {
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 115%;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 115%;
+  letter-spacing: 4px;
+}
+
+h3 {
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "NotoSansArmenian", Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+button {
+  font-family: "Robboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 155%;
+}

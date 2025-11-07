@@ -1,0 +1,15 @@
+@media (max-width:1024px) {
+   .testimonials .container .body_text{
+        font-size: 14px !important;
+     
+    }
+
+}
+
+
+
+@media (max-width:1024px) {
+    .home_slider .container-box .body_text{
+font-size: 12px;
+    }
+}

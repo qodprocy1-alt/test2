@@ -1,0 +1,161 @@
+@media (max-width:1024px) {
+  .cta1 {
+    padding-top: 30px !important;
+    height: 250px !important;
+    font-size: 15px !important;
+    display: flex;
+    justify-content: start !important;
+    min-height: 202px !important;
+  }
+
+}
+
+.hero_banner h1 {
+  font-size: 50px !important;
+
+}
+
+
+@media (max-width:375px) and (min-width:351px) {
+  .cta1 p {
+    font-size: 15px !important;
+  }
+
+  .hero_banner h1 {
+    font-size: 20px !important;
+
+  }
+}
+
+@media (max-width:425px) {
+  .hero_banner h1 {
+    font-size: 13px !important;
+  }
+}
+
+
+/* tablet */
+@media (max-width:768px) {
+  .hero_banner p {
+    font-size: 20px !important;
+  }
+
+
+  .cta1 p {
+    font-size: 17px;
+    text-align: center;
+
+  }
+}
+
+/* mobil s  */
+@media (max-width:320px) {
+  .hero_banner p {
+    font-size: 15px !important;
+  }
+
+  .cta1 p {
+    font-size: 11px !important;
+    padding: 0 20px;
+  }
+}
+
+@media(max-width:1440px) {
+  .hero_banner h1 {
+    font-size: 65px;
+  }
+}
+
+/* CLASIFICATION */
+
+/* laptop */
+
+
+@media (max-width: 1024px) {
+
+  .more_info {
+    /* display: flex !important; */
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+    row-gap: 40px;
+  }
+
+  .box_clasific {
+    width: 30% !important;
+  }
+
+}
+
+@media (max-width:425px) {
+  .box_clasific {
+    width: 90% !important;
+  }
+
+}
+
+@media (max-width:px) {
+  .box_clasific {
+    width: 100% !important;
+  }
+
+}
+
+
+@media (max-width:768px) {
+  .container-box .slder_img img {
+    margin: 0 auto;
+  }
+
+  .container-box .slider_ttbox {
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width:1024px) {
+  .Elementary_school .btn {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .Elementary_school {
+    flex-wrap: wrap;
+  }
+
+  .Elementary_school .text1 {
+    width: 41% !important;
+
+  }
+  .Elementary_school .img_box{
+    width: 42% !important;
+  }
+
+}
+@media (max-width:768px) {
+  .Elementary_school .text1{
+    width: 52% !important;
+  }
+  
+}
+@media (max-width:425px) {
+  .Elementary_school{
+    flex-direction: column !important;
+  }
+  .Elementary_school .img_box{
+    width: 80% !important;
+  }
+  .Elementary_school .text1{
+    width: 80% !important;
+  }
+  .Elementary_school .text1 p{
+    font-size: 15px;
+    
+  }
+  .Elementary_school .btn{
+    width: 80% !important;
+    text-align: start;
+  }
+.our_services h2{
+  font-size: 20px !important;
+}
+}
